@@ -5,9 +5,6 @@
 
 ## Usage
 ```bash
-git clone https://github.com/Pidu2/spotify_playlist_cleaner.git
-cd spotify_playlist_cleaner/
-go install
 ./cleaner <username>
 ```
 
