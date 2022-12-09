@@ -4,9 +4,11 @@
 - This script shows you which these songs are ("not liked but in playlist X")
 
 ## Usage
-```bash
-./cleaner <username>
-```
+* Create Client ID and Client Secret on Spotify Dashboard
+* `export SPOTIFY_CLIENT=clientid;export SPOTIFY_SECRET=clientsecret`
+* ```bash
+  ./cleaner <username>
+  ```
 
 ## General Info
 - Uses the Go wrapper for Spotify API https://github.com/zmb3/spotify

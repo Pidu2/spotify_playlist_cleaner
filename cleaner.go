@@ -118,7 +118,7 @@ func main() {
 					inIDs = true
 				}
 			}
-			if !inIDs && playlist_song.Track.PreviewURL != "" {
+			if !inIDs && playlist_song.Track.SimpleTrack.ID != "" {
 				artist_text := ""
 				for _, artist := range playlist_song.Track.SimpleTrack.Artists {
 					artist_text = artist_text + artist.Name + ", "
