@@ -5,7 +5,7 @@
 
 ## Usage
 * Create Client ID and Client Secret on Spotify Dashboard
-* `export SPOTIFY_CLIENT=clientid;export SPOTIFY_SECRET=clientsecret`
+* `export SPOTIFY_ID=clientid;export SPOTIFY_SECRET=clientsecret`
 * ```bash
   ./cleaner <username>
   ```
